@@ -3,11 +3,26 @@
 	text-transform: uppercase;
 	li{
 		margin-right: 20px;
+		
 		a{
 			color:$grey;
-			&:hover,&:active{
-				border-bottom: solid $pink 3px;
-			}
+			position: relative;
+		}
+		a:before {
+		  content: "";
+		  position: absolute;
+		  width: 100%;
+		  height: 2px;
+		  bottom: 0;
+		  left: 0;
+		  background-color: $pink;
+		  visibility: hidden;
+		  transform: scaleX(0);
+		  transition: all 0.3s ease-in-out 0s;
+		}
+		a:hover:before {
+		  visibility: visible;
+		  transform: scaleX(1);
 		}
 	}
 }
@@ -19,13 +34,15 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-end;
 	height: 150px;
 	max-width: 1024px;
 	margin: 0 auto;
+
 	.site-description{
 		position: absolute;
-		left: 999999px;
+		top: -9999px;
+    left: -9999px;
 	}
 	.main-navigation{
 		order: 1;
@@ -37,6 +54,7 @@
 }
 
 
+  
 
 
 

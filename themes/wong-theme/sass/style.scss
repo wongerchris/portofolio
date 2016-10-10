@@ -1,9 +1,9 @@
 /*!
-Theme Name: RED Starter Theme
+Theme Name: Chris Wong Starter Theme
 Theme URI: http://underscores.me/
-Author: RED Academy
-Author URI: http://www.redacademy.com
-Description: A WordPress starter theme for RED Academy students.
+Author: Chris Wong
+Author URI: www.chrislwong.com
+Description: A WordPress theme for a web designer.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -57,6 +57,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "typography";
 @import "elements";
 @import "forms";
+@import "general";
 @import "navigation";
 @import "main-nav";
 @import "modules";
