@@ -1,0 +1,43 @@
+.menu {
+	font-family: $heading_font;
+	text-transform: uppercase;
+	li{
+		margin-right: 20px;
+		a{
+			color:$grey;
+			&:hover,&:active{
+				border-bottom: solid $pink 3px;
+			}
+		}
+	}
+}
+.wong-logo{
+	width:150px;
+}
+
+.site-header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 150px;
+	max-width: 1024px;
+	margin: 0 auto;
+	.site-description{
+		position: absolute;
+		left: 999999px;
+	}
+	.main-navigation{
+		order: 1;
+		width: 300px;
+	}
+	.site-branding{
+		order: 2;	
+	}
+}
+
+
+
+
+
+

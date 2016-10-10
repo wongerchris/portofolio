@@ -43,6 +43,13 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+/*
+-----------------
+-----------------
+wong-theme styles
+-----------------
+-----------------
+*/
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -483,6 +490,42 @@ a {
   float: right;
   text-align: right;
   width: 50%; }
+
+.menu {
+  font-family: "Trirong", serif;
+  text-transform: uppercase; }
+  .menu li {
+    margin-right: 20px; }
+    .menu li a {
+      color: #2D2D2E; }
+      .menu li a:hover, .menu li a:active {
+        border-bottom: solid #FC5151 3px; }
+
+.wong-logo {
+  width: 150px; }
+
+.site-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-align: center;
+      align-items: center;
+  height: 150px;
+  max-width: 1024px;
+  margin: 0 auto; }
+  .site-header .site-description {
+    position: absolute;
+    left: 999999px; }
+  .site-header .main-navigation {
+    -ms-flex-order: 1;
+        order: 1;
+    width: 300px; }
+  .site-header .site-branding {
+    -ms-flex-order: 2;
+        order: 2; }
 
 /*--------------------------------------------------------------
 # Accessibility
