@@ -1,0 +1,14 @@
+.wong-profile{
+	width:100%;
+	height: auto;
+	position: relative;
+	.profile{
+		margin-left: 100px;
+		max-width: 400px;
+		margin: 0 auto;
+	}	
+	.content{
+		position: absolute;
+		top: 50px;
+	}
+}

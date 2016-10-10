@@ -560,6 +560,18 @@ a {
     -ms-flex-order: 2;
         order: 2; }
 
+.wong-profile {
+  width: 100%;
+  height: auto;
+  position: relative; }
+  .wong-profile .profile {
+    margin-left: 100px;
+    max-width: 400px;
+    margin: 0 auto; }
+  .wong-profile .content {
+    position: absolute;
+    top: 50px; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
