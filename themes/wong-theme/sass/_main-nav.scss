@@ -26,8 +26,11 @@
 		}
 	}
 }
-
 .site-header{
+	width:100%;
+	background-color: #F3F3F3;
+}
+.site-header-container{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -48,10 +51,17 @@
 		width: 300px;
 	}
 	.site-branding{
+		background-color:#fff;
+		height: 100%;
+		width: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 		order: 2;	
 		h2{
-			color:$light-grey;
-			font-weight: 500;
+			color:$blue;
+			font-weight: 700;
+			text-transform: uppercase;
 		}
 	}
 }

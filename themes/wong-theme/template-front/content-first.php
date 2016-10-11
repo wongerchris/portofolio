@@ -9,7 +9,7 @@
 	<div class="line"></div>
 	
 	<div class="content-front-1">
-		<h2>I'am a <span class="underline">Front-End Developer</span> and <span class="sports">sports enthusiast</span> with a serious <span class="coffee">Coffee Addiction</span> ... <span class="front-small">please help me</span></h2>
+		<h2>I'am a <span class="underline">Front-End Developer</span> and <span class="sports">sports enthusiast</span> with a serious <span class="coffee">	<img class="needle" src="<?php echo(get_template_directory_uri());?>/img/needle.svg" alt="inhabitent logo white"/>Coffee Addiction</span> ... <span class="front-small">please help me</span></h2>
 	</div>
 </section>
 

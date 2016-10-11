@@ -1,10 +1,10 @@
 //Section 1 front page
 .front-header{
-	color: $light-grey;
+	color: $blue;
 	&:after{
 		width: 70px;
 	  height: 1px;
-	  background: #dcdcdc;
+	  background: $pink;
 	  content: " ";
 	  display: block;
 	  margin-top: 10px;
@@ -13,7 +13,7 @@
 }
 .background-section-1{
 	position: absolute;
-	top: 200px;
+	top: 250px;
 	left: 0;
 	width: 100%;
 	height: 500px;
@@ -30,7 +30,8 @@
 	width: 100%;
 	height: auto;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 150px;
+	margin-top: 50px;
 
 	.content-front-1{
 		width: 50%;
@@ -41,12 +42,13 @@
 			letter-spacing: 1.6px;
 			line-height: 40px;
 			font-weight: 300;
+			margin-top: 70px;
 		}
 		.underline{
 			position: relative;
 			font-weight: 700;
 			font-size: 2rem;
-			color: $grey;
+			color: $blue;
 			text-transform: uppercase;
 		&:before{
 			content:"";
@@ -72,6 +74,15 @@
 			text-transform: uppercase;
 			font-size:1.6rem;
 			font-weight: 500;
+			position: relative;
+		.needle{
+			position: absolute;
+			top: -30px;
+			left:-40px;
+			width: 150px;
+			height: auto;
+			z-index: -1;
+			}
 		}
 	}
 

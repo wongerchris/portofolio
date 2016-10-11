@@ -540,6 +540,10 @@ a {
       transform: scaleX(1); }
 
 .site-header {
+  width: 100%;
+  background-color: #F3F3F3; }
+
+.site-header-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -552,27 +556,37 @@ a {
   width: 1024px;
   padding: 0 20px;
   margin: 0 auto; }
-  .site-header .site-description {
+  .site-header-container .site-description {
     position: absolute;
     top: -9999px;
     left: -9999px; }
-  .site-header .main-navigation {
+  .site-header-container .main-navigation {
     -ms-flex-order: 1;
         order: 1;
     width: 300px; }
-  .site-header .site-branding {
+  .site-header-container .site-branding {
+    background-color: #fff;
+    height: 100%;
+    width: 20%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
     -ms-flex-order: 2;
         order: 2; }
-    .site-header .site-branding h2 {
-      color: #a4a4a4;
-      font-weight: 500; }
+    .site-header-container .site-branding h2 {
+      color: #414759;
+      font-weight: 700;
+      text-transform: uppercase; }
 
 .front-header {
-  color: #a4a4a4; }
+  color: #414759; }
   .front-header:after {
     width: 70px;
     height: 1px;
-    background: #dcdcdc;
+    background: #FC5151;
     content: " ";
     display: block;
     margin-top: 10px;
@@ -580,7 +594,7 @@ a {
 
 .background-section-1 {
   position: absolute;
-  top: 200px;
+  top: 250px;
   left: 0;
   width: 100%;
   height: 500px;
@@ -600,7 +614,8 @@ a {
   width: 100%;
   height: auto;
   position: relative;
-  margin-bottom: 50px; }
+  margin-bottom: 150px;
+  margin-top: 50px; }
   .section-1 .content-front-1 {
     width: 50%;
     -ms-flex-item-align: center;
@@ -611,12 +626,13 @@ a {
       font-size: 1.5rem;
       letter-spacing: 1.6px;
       line-height: 40px;
-      font-weight: 300; }
+      font-weight: 300;
+      margin-top: 70px; }
     .section-1 .content-front-1 .underline {
       position: relative;
       font-weight: 700;
       font-size: 2rem;
-      color: #2D2D2E;
+      color: #414759;
       text-transform: uppercase; }
       .section-1 .content-front-1 .underline:before {
         content: "";
@@ -637,7 +653,15 @@ a {
     .section-1 .content-front-1 .coffee {
       text-transform: uppercase;
       font-size: 1.6rem;
-      font-weight: 500; }
+      font-weight: 500;
+      position: relative; }
+      .section-1 .content-front-1 .coffee .needle {
+        position: absolute;
+        top: -30px;
+        left: -40px;
+        width: 150px;
+        height: auto;
+        z-index: -1; }
   .section-1 .content-front-2 {
     width: 40%; }
     .section-1 .content-front-2 p {
